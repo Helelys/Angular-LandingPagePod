@@ -5,7 +5,7 @@ section {
   & .container {
     margin-top: 8em;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 
     & img {
       width: 60em;

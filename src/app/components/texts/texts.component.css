@@ -1,0 +1,39 @@
+.textos {
+  color: #028090;
+
+  & .container__textos {
+    width: 60%;
+    margin: auto;
+    margin-top: 10em;
+
+    & h1 {
+      font-size: 3em;
+      font-family: "Winky Sans", sans-serif;
+
+      & span {
+        color: white;
+      }
+    }
+
+    & p {
+      font-family: "Raleway", sans-serif;
+    }
+
+    & form {
+      margin-top: 3em;
+
+      & input {
+        border: none;
+        height: 2.5em;
+        border-radius: 50px 0 0 50px;
+      }
+
+      & button {
+        height: 2.6em;
+        border: none;
+
+        border-radius: 0 50px 50px 0;
+      }
+    }
+  }
+}
